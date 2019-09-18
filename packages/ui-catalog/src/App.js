@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Heading title="I am the common wawa header!" />
+      <Heading title="common wawa header!" />
     </div>
   );
 }
