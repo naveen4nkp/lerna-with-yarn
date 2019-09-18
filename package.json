@@ -1,0 +1,18 @@
+{
+  "name": "lerna-with-yarn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "",
+  "author": "debarpana",
+  "license": "hcl",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "new-version": "lerna version" 
+}
+}
